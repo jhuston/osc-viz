@@ -1,2 +1,2 @@
-# simple-react-boilerplate
-A very basic react webpack css modules boilerplate
+# Speculum
+Visualization of all things sphinxr, in the browser.
