@@ -9,10 +9,14 @@ to proxy data from supercollider to a browser for visualization.
 I'm not sure what node-osc is giving us at the moment, except that this setup seams to work.
 
 ## Running the app
+
 clone this repo, `git clone https://github.com/jhuston/osc-viz.git`
+
 `npm install`
+
 `npm run server`
+
 
 open "lib/sample-osc-supercollider.scd" in Supercollider and follow the instructions in that file to get a routine sending messages to the osc server.
 
-visit localhost:3000 to see what is happening!
+visit `localhost:3000` to see what is happening!
