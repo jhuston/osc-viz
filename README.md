@@ -10,6 +10,8 @@ I'm not sure what node-osc is giving us at the moment, except that this setup se
 
 ## Running the app
 
+*Assumes node is already installed*
+
 clone this repo, `git clone https://github.com/jhuston/osc-viz.git`
 
 `npm install`
