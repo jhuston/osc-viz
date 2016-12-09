@@ -34,9 +34,11 @@ io.on('connection', function(socket){
 oscServer.on("message", function (msg, rinfo){
   console.log(msg);
   console.log(rinfo);
-  io.emit('chat message', msg);
+  //forward the message to the browser
+  io.emit('from supercollider', msg);
 });
 
+// start the socket.io server
 http.listen(3000, function(){
   console.log('listening on *:3000');
 });

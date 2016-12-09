@@ -5,7 +5,7 @@ import CSSModules from 'react-css-modules';
 const Grower = ({name}) => {
 
   return (
-    <div id="grower" styleName="root">
+    <div className="grower" styleName="root">
       {name}
     </div>
   )
